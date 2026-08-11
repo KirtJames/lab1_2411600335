@@ -1,0 +1,197 @@
+/* =====================================================
+   COLOR SCHEME — "Teal & Coral" (Complementary Harmony)
+   Primary:      #1B4B43  (deep teal)
+   Secondary:    #2F8F7F  (teal)
+   Background:   #F7F3EC  (warm off-white)
+   Text:         #262322  (near-black warm)
+   Accent:       #E2703A  (coral orange)
+   Light Accent: #D9ECE7  (light teal)
+   ===================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+  background-color: #F7F3EC;
+  color: #262322;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background-color: #1B4B43;
+  color: #F7F3EC;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #F7F3EC;
+}
+
+.tagline {
+  margin-top: 8px;
+  font-size: 1.1rem;
+  color: #D9ECE7;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+  background-color: #2F8F7F;
+  padding: 12px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #F7F3EC;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #E2703A;
+  color: #FFFFFF;
+}
+
+/* ---------- HEADINGS ---------- */
+h1, h2, h3 {
+  color: #1B4B43;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  border-bottom: 3px solid #E2703A;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+/* ---------- MAIN / SECTIONS ---------- */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+section {
+  background-color: #D9ECE7;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* ---------- CUSTOM CLASSES ---------- */
+.tag {
+  background-color: #2F8F7F;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-left: 5px solid #E2703A;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+  display: inline-block;
+  background-color: #E2703A;
+  color: #FFFFFF !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #c65c2a;
+}
+
+/* ---------- LISTS ---------- */
+ul, li {
+  list-style-position: inside;
+}
+
+#skills ul {
+  padding-left: 0;
+}
+
+#skills li {
+  margin-bottom: 10px;
+}
+
+/* ---------- ASIDE ---------- */
+aside {
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  background-color: #FFFFFF;
+  border: 2px solid #2F8F7F;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.quote {
+  font-style: italic;
+  color: #2F8F7F;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #1B4B43;
+  color: #F7F3EC;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+footer a {
+  color: #D9ECE7;
+}
+
+.updated {
+  font-size: 0.85rem;
+  color: #D9ECE7;
+  margin-top: 10px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
