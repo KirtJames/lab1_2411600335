@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "sku": "QC-MOU-001",
+    "category": "Electronics",
+    "unit_price": 599,
+    "quantity": 3,
+    "reorder_level": 5,
+    "supplier": "Tech Supply Co."
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "sku": "QC-KEY-002",
+    "category": "Electronics",
+    "unit_price": 1899,
+    "quantity": 12,
+    "reorder_level": 5,
+    "supplier": "Tech Supply Co."
+  },
+  {
+    "id": 3,
+    "name": "USB-C Cable",
+    "sku": "QC-CAB-003",
+    "category": "Accessories",
+    "unit_price": 299,
+    "quantity": 25,
+    "reorder_level": 10,
+    "supplier": "Cable World"
+  },
+  {
+    "id": 4,
+    "name": "Laptop Stand",
+    "sku": "QC-LAP-004",
+    "category": "Accessories",
+    "unit_price": 899,
+    "quantity": 7,
+    "reorder_level": 5,
+    "supplier": "Office Essentials"
+  },
+  {
+    "id": 5,
+    "name": "Webcam HD",
+    "sku": "QC-WEB-005",
+    "category": "Electronics",
+    "unit_price": 1499,
+    "quantity": 4,
+    "reorder_level": 5,
+    "supplier": "Tech Supply Co."
+  },
+  {
+    "id": 6,
+    "name": "Office Chair",
+    "sku": "QC-CHR-006",
+    "category": "Furniture",
+    "unit_price": 5499,
+    "quantity": 8,
+    "reorder_level": 3,
+    "supplier": "Office Essentials"
+  },
+  {
+    "id": 7,
+    "name": "Desk Lamp",
+    "sku": "QC-LAM-007",
+    "category": "Furniture",
+    "unit_price": 1299,
+    "quantity": 0,
+    "reorder_level": 3,
+    "supplier": "Home Supplies"
+  },
+  {
+    "id": 8,
+    "name": "Bluetooth Speaker",
+    "sku": "QC-SPK-008",
+    "category": "Electronics",
+    "unit_price": 2299,
+    "quantity": 6,
+    "reorder_level": 5,
+    "supplier": "Audio Hub"
+  }
+]
